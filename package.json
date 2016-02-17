@@ -8,6 +8,9 @@
     "url": "git://github.com/baristalabs/barista-server.git"
   },
   "main": "./lib/index.js",
+  "scripts": {
+    "start": "node ."
+  },
   "author": {
     "name": "oceanswave",
     "email": "sean.mclellan@baristalabs.com"
@@ -16,8 +19,12 @@
     "barista-core": "latest",
     "barista-fiddle": "latest",
     "barista-scriptbox": "latest",
+    "body-parser": "^1.15.0",
     "express": "^4.13.4",
-    "portfinder": "^1.0.1"
+    "lodash": "^4.5.0",
+    "multer": "^1.1.0",
+    "portfinder": "^1.0.1",
+    "require-uncached": "^1.0.2"
   },
   "license": "ISC"
 }
