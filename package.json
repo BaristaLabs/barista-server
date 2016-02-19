@@ -9,7 +9,7 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node app.js"
   },
   "author": {
     "name": "oceanswave",

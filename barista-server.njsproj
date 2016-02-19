@@ -39,6 +39,7 @@
     <Folder Include="tests\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="app.js" />
     <Compile Include="lib\index.js" />
     <Compile Include="lib\server.js" />
   </ItemGroup>
