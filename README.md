@@ -12,6 +12,11 @@ Barista listening at http://:::8000
 
 then, simply point a browser to http://localhost:8000/fiddle
 
+To uninstall:
+```
+$ npm uninstall barista-server -g
+```
+
 Can be used in conjunction with strongloop or pm2 to provide production process management:
 
 #### strongloop
@@ -21,11 +26,11 @@ TODO...
 #### PM2
 ```
 $ npm install pm2 -g					          # Install PM2
-$ pm2 start barista-server   # Start, Daemonize and auto restart barista
+$ pm2 start barista-server              # Start, Daemonize and auto restart barista
 ```
 
 to stop:
-```
-$ pm2 stop barista-server
+```   
+$ pm2 stop barista-server                
 $ pm2 delete barista-server
 ```
