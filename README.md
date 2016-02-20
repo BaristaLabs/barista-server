@@ -2,11 +2,12 @@
 
 Provides a headless, express based host for Barista, Barista Fiddle and Barista ScriptBox
 
-Simply install and start the server with
+If you have NodeJS installed, simply install and start the server with
 
 ```
-npm install barista-server -g
-barista-server
+$ npm install barista-server -g
+$ barista-server
+Barista listening at http://:::8000
 ```
 
 then, simply point a browser to localhost:8000/fiddle
@@ -20,7 +21,7 @@ TODO...
 #### PM2
 ```
 $ npm install pm2 -g					          # Install PM2
-$ pm2 start app.js --name="barista-server" -i 1   # Start, Daemonize and auto restart barista
+$ pm2 start barista-server   # Start, Daemonize and auto restart barista
 ```
 
 to stop:
