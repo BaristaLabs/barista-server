@@ -19,9 +19,9 @@ $ npm uninstall barista-server -g
 
 No NodeJS? See [this](https://nodejs.org/en/download/package-manager/)
 
-Can be used in conjunction with [strongloop](https://strongloop.com/) or [PM2](http://pm2.keymetrics.io/) to provide production process management:
+Can be used in conjunction with [strongloop](http://strong-pm.io/) or [PM2](http://pm2.keymetrics.io/) to provide production process management:
 
-#### [strongloop](https://strongloop.com/)
+#### [strongloop](http://strong-pm.io/)
 
 TODO...
 
