@@ -1,6 +1,6 @@
 {
   "name": "barista-server",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Serves barista, fiddle, scriptbox",
   "homepage": "https://github.com/baristalabs/barista-server",
   "repository": {
