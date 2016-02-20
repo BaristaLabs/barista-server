@@ -10,7 +10,7 @@ $ barista-server
 Barista listening at http://:::8000
 ```
 
-then, simply point a browser to localhost:8000/fiddle
+then, simply point a browser to http://localhost:8000/fiddle
 
 Can be used in conjunction with strongloop or pm2 to provide production process management:
 
