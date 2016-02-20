@@ -1,6 +1,6 @@
 {
   "name": "barista-server",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Serves barista, fiddle, scriptbox",
   "homepage": "https://github.com/baristalabs/barista-server",
   "repository": {
@@ -8,6 +8,9 @@
     "url": "git://github.com/baristalabs/barista-server.git"
   },
   "main": "./lib/index.js",
+  "bin": {
+    "barista-server": "./app.js"
+  },
   "scripts": {
     "start": "node app.js"
   },
