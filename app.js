@@ -1,4 +1,6 @@
-﻿var bs = require(".");
+﻿#!/usr/bin/env node
+'use strict';
+var bs = require(".");
 var myServer = new bs.BaristaServer();
 
 myServer.createBaristaServer();
