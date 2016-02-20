@@ -19,13 +19,13 @@ $ npm uninstall barista-server -g
 
 No NodeJS? See [this](https://nodejs.org/en/download/package-manager/)
 
-Can be used in conjunction with strongloop or pm2 to provide production process management:
+Can be used in conjunction with [strongloop](https://strongloop.com/) or [PM2](http://pm2.keymetrics.io/) to provide production process management:
 
-#### strongloop
+#### [strongloop](https://strongloop.com/)
 
 TODO...
 
-#### PM2
+#### [PM2](http://pm2.keymetrics.io/)
 ```
 $ npm install pm2 -g					          # Install PM2
 $ pm2 start barista-server              # Start, Daemonize and auto restart barista
