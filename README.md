@@ -17,7 +17,7 @@ To uninstall:
 $ npm uninstall barista-server -g
 ```
 
-No NodeJS? See (this)[https://nodejs.org/en/download/package-manager/]
+No NodeJS? See [this](https://nodejs.org/en/download/package-manager/)
 
 Can be used in conjunction with strongloop or pm2 to provide production process management:
 
